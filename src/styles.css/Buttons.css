@@ -1,0 +1,22 @@
+.add_button,
+.delete_button,
+.reset_button {
+  border-radius: 15px;
+  background: rgb(255, 187, 0);
+  box-shadow: 0px 0px 4px 0.5px rgb(179, 178, 178);
+  width: 120px;
+  height: 25px;
+  margin: 10px 10px;
+  border: none;
+}
+
+.add_button:hover,
+.delete_button:hover {
+  background: rgb(237, 179, 18);
+  cursor: pointer;
+}
+
+.reset_button:hover {
+  background: rgb(222, 109, 16);
+  cursor: pointer;
+}
